@@ -1,9 +1,13 @@
 ﻿public class Estate
 {
     public int Id { get; set; }
-    public required string Category { get; set; } // "Satılık Arsa", "Kiralık Daire" gibi
-    public required string Title { get; set; }
-    public required string Description { get; set; }
+    public string Title { get; set; }
+    public string Location { get; set; }
     public decimal Price { get; set; }
-    public required string ImageUrl { get; set; }
+    public string Description { get; set; }
+    public string ImageUrl { get; set; }
+    public int Bedrooms { get; set; }
+    public int Area { get; set; }
+    public string Features { get; set; }
+    public string Category { get; set; }
 }
